@@ -34,8 +34,8 @@ public class Car {
 	public void run3(Tire tire) {
 		tire.roll();
 	}
-<<<<<<< HEAD
+
 }
-=======
-}
->>>>>>> branch 'main' of https://github.com/lee-eun-sik/JAVAEXAMPLE.git
+
+
+
