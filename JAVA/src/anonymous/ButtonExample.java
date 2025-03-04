@@ -42,4 +42,8 @@ public class ButtonExample {
 		btnCancel.click();
 	}
 
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> branch 'main' of https://github.com/lee-eun-sik/JAVAEXAMPLE.git
