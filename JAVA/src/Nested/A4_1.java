@@ -36,8 +36,7 @@ public class A4_1 {
 		B b = new B();
 		b.print();
 	}
-<<<<<<< HEAD
+
+
 }
-=======
-}
->>>>>>> branch 'main' of https://github.com/lee-eun-sik/JAVAEXAMPLE.git
+
