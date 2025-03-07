@@ -8,7 +8,10 @@ import lombok.NonNull;
 @AllArgsConstructor
 public class Member2 {
 	
-	private final String id;
+	private String id;
 	@NonNull private String name;
 	private int age;
+	public String getId() {
+		return id;
+	}
 }
