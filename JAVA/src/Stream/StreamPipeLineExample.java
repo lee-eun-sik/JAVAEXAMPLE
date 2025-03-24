@@ -24,12 +24,14 @@ public class StreamPipeLineExample {
 		*/
 		
 		//방법2
-		double avg = list.stream()
+		double avg = list.stream() 
 				.mapToInt(student -> student.getScore())
 				.average()
 				.getAsDouble();
+		
+		
 		System.out.println("평균 점수: " + avg);
-		 */
+		 
 				
 	}
 
