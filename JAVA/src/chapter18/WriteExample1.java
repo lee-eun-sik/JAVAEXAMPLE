@@ -9,7 +9,7 @@ public class WriteExample1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		try {
-			OutputStream os = new FileOutputStream("C:\\Users\\Admin\\test2.db");
+			OutputStream os = new FileOutputStream("C:\\Users\\dldms\\test2.db");
 			
 			byte[] array = { 10, 20, 30 };
 			

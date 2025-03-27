@@ -8,7 +8,7 @@ public class WriteExample {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		try {
-			OutputStream os = new FileOutputStream("C:/Users/Admin/text1.db");
+			OutputStream os = new FileOutputStream("C:/Users/dldms/text1.db");
 			
 		
 			byte a = 10;

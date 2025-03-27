@@ -10,7 +10,7 @@ public class ReadExample {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub	
 		try {
-			InputStream is = new FileInputStream("C:\\Users\\Admin\\text1.db");
+			InputStream is = new FileInputStream("C:\\Users\\dldms\\text1.db");
 			
 			while(true) {
 				int data = is.read();
