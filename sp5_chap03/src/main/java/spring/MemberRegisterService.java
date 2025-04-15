@@ -4,11 +4,10 @@ import java.time.LocalDateTime;
 
 public class MemberRegisterService {
 	private MemberDAO memberDao;
-	
-	public MemberRegisterService(MemberDao memberDao) {
-		this.memberDao = memberDao;
+
+
 		
-		public MemberRegisterService(MemberDao memberDao) {
+		public MemberRegisterService(MemberDAO memberDao) {
 			this.memberDao = memberDao;
 		}
 		
@@ -20,9 +19,9 @@ public class MemberRegisterService {
 			Member newMember = new Member(
 					req.getEmail(), req.getPassword(), req.getName(),
 					LocalDateTime.now());
-			MemberDao.insert(newMember);
+			MemberDAO.insert(newMember);
 			return newMember.getId();
 					
 		}
-	}
+	
 }
