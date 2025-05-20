@@ -16,20 +16,17 @@ import spring.MemberListPrinter;
 import spring.MemberNotFoundException;
 import spring.MemberRegisterService;
 import spring.RegisterRequest;
-<<<<<<< HEAD
-=======
+
 import spring.VersionPrinter;
->>>>>>> branch 'main' of https://github.com/lee-eun-sik/JAVAEXAMPLE.git
+
 import spring.WrongIdPasswordException;
 
 public class MainForSpring {
 	private static ApplicationContext ctx = null;
 	
-<<<<<<< HEAD
-	public static void main(String[] args) throws IOException, AlreadyExistingMemberException, WrongIdPasswordException, IdPasswordNotMatchingException {
-=======
+
 	public static void main(String[] args) throws IOException, AlreadyExistingMemberException, IdPasswordNotMatchingException, WrongIdPasswordException {
->>>>>>> branch 'main' of https://github.com/lee-eun-sik/JAVAEXAMPLE.git
+
 		ctx = new AnnotationConfigApplicationContext(AppCtx.class);
 		
 		BufferedReader reader =
@@ -83,11 +80,9 @@ public class MainForSpring {
 				System.out.println("등록했습니다.\n");
 		}
 	
-<<<<<<< HEAD
-	private static void processChangeCommand(String[] arg) throws WrongIdPasswordException, IdPasswordNotMatchingException {
-=======
+
 	private static void processChangeCommand(String[] arg) throws IdPasswordNotMatchingException, WrongIdPasswordException {
->>>>>>> branch 'main' of https://github.com/lee-eun-sik/JAVAEXAMPLE.git
+
 		if (arg.length != 4) {
 			printHelp();
 			return;
